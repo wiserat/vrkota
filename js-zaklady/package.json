@@ -1,0 +1,15 @@
+{
+  "name": "js-zaklady",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "prompt-sync-history": "^1.0.1"
+  }
+}
