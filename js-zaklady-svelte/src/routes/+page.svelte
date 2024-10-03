@@ -8,7 +8,7 @@
         { name: "uklidit", isActive: true },
         { name: "uklidit", isActive: true }
     ];
-    let addTask = "j";
+    let addTask = "";
 
     let i = 0;
 
