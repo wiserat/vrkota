@@ -1,22 +1,27 @@
 <script lang="ts">
     import "../app.css";
 
-    let itemList = [
+    interface Item {
+        name: string;
+        isActive: boolean;
+    }
+    
+    let itemList: Item[] = [
         { name: "uklidit", isActive: true },
         { name: "uklidit", isActive: true },
         { name: "uklidit", isActive: true },
         { name: "uklidit", isActive: true },
         { name: "uklidit", isActive: true }
     ];
-    let addTask = "";
+    let addTask:string = "";
 
-    let i = 0;
+    let i:number = 0;
 
-    let name = '';
-    let submited = false;
+    let name:string = '';
+    let submited:boolean = false;
 
-    let number1 = ""
-    let number2 = "";
+    let number1:string = ""
+    let number2:string = "";
 </script>
 
 <div class="flex flex-col">
