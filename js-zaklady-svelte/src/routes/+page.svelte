@@ -1,6 +1,4 @@
 <script lang="ts">
-    import "../app.css";
-
     interface Item {
         name: string;
         isActive: boolean;
